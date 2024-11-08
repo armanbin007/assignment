@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a,x;
-    float b,y;
-    char c,k;
+    int a;
+    float b;
+    char c;
 
     a = 5;
     b = 3.141593;
