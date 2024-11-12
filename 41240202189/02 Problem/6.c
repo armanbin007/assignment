@@ -2,13 +2,9 @@
 int main(){
     int X, Y;
     scanf("%d %d", &X, &Y);
-    int mul = X;
-    mul = X * Y;
-    printf("Multiplication: %d\n", mul);
-    
-    int div = X;
-    div = X / Y;
-    printf("Division: %d\n", div);
+    int raw = X;
+    printf("Multiplication: %d\n", X*=Y);
+    printf("Division: %d\n", raw/=Y);
     
     return 0;
 }
