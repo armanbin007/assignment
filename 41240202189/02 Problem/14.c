@@ -10,6 +10,9 @@ int main(){
     }
         B = X;
     float C = X;
+    if(X < 0){
+        C = -X;
+    }
     printf("A = %d, B = %d, C = %.1f\n", A,B,C);
     
     return 0;
